@@ -5,15 +5,21 @@ melissa chiam
 tested in postman.
 
 endpoints:
+
   POST (add an item)- https://u0j077fkqi.execute-api.us-east-1.amazonaws.com/test/functions
+  
   GET (retrieve list of items from db)- https://u0j077fkqi.execute-api.us-east-1.amazonaws.com/test/functions
+  
   GET (retrieve specific item using key)- https://u0j077fkqi.execute-api.us-east-1.amazonaws.com/test/functions/{recipeId}
+  
   PUT (update specific item using key)- https://u0j077fkqi.execute-api.us-east-1.amazonaws.com/test/functions/{recipeId}
+  
   DELETE (delete a specific item using key)- https://u0j077fkqi.execute-api.us-east-1.amazonaws.com/test/recipe/{recipeId}
 
 instructions:
 
 table:
+
 recipeId (automatic)
 
 recipeDesc (string) - "desc"
