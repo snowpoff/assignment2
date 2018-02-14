@@ -15,8 +15,11 @@ instructions:
 
 table:
 recipeId (automatic)
+
 recipeDesc (string) - "desc"
-recipeIngr (string) = "ingr"
+
+recipeIngr (string) - "ingr"
+
 recipeName (string) - "name"
 
 to add an entry, supply data as following example:
